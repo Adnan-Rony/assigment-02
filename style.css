@@ -11,6 +11,7 @@
     justify-content: space-around;
     align-items: center;
     background: #FFF;
+    gap: 100px;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     
    
@@ -30,11 +31,11 @@ font-size: 18px;
 font-style: normal;
 font-weight: 500;
 }
-header{
+/* header{
     padding-left: 100px;
     padding-right: 100px;
     height:100vh;
-}
+} */
 .nav-menu ul li a{
     text-decoration: none;
 }
@@ -132,11 +133,13 @@ main{
 .gammer{
     display: flex;
     justify-content: center;
-    gap: 100px;
+    /* gap: 100px; */
  
 
 
 }
+
+
 .f-section-text h1{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
@@ -188,6 +191,7 @@ text-align: right;
 .f-section-img img{
 
     width: 100%;
+    
 
 }
 /* 1st section end */
@@ -332,7 +336,92 @@ position: relative;
 left: 320px;
 bottom: 130px;
 }
+/* last section start */
 
+.logos{
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+row-gap: 35px;
+/* column-gap: 35px; */
+border: 1px solid gray;
+justify-content: center;
+
+
+}
+.img-and-text{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #FFF;
+}
+.img-and-text:hover{
+    width: 218px;
+height: 80px;
+border-radius: 50px;
+background: #FFF;
+border: 1px solid #FF42A5;
+color: #FF42A5;
+
+}
+/* last section end */
+/* footer start */
+footer{
+    height: 336px;
+    background: #0B0223;
+    /* padding-left: 160px;
+    padding-right: 160px; */
+}
+.footer-span{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.footer-logo h1{
+    color: white;
+}
+.footer-text{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    padding-top: 50px;
+}
+.btnn img{
+
+}
+.footer-privacy{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+.footer-privacy p{
+    color: rgba(255, 255, 255, 0.60);
+
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.footer-small{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 25px;
+}
 
 
 
