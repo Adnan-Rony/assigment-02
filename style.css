@@ -279,9 +279,7 @@ gap: 200px;
 }
 .big-picture{
     width: 100%; */
-    /* height: 650px;
-    /* width: 634.833px;
-height: 650px; */
+   
 }
 .small-picture{
     position: relative;
@@ -301,8 +299,8 @@ line-height: 60px; /* 125% */
 }
 .download-span{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
 -webkit-background-clip: text;
+background-clip: text;
 -webkit-text-fill-color: transparent;
 }
 .download-text p{
@@ -520,6 +518,9 @@ flex-shrink: 0;
     .download-text p{
         width:fit-content;
     }
+    .download-text p{
+        text-align: center;
+    } 
     .section-p {
         text-align: center;
     }
@@ -537,6 +538,9 @@ flex-shrink: 0;
         padding-left: 35px;
 
     }
+    .f-section-text h1{
+        text-align: center;
+    }
     
     .f-section-discription{
         text-align: center;
@@ -552,9 +556,9 @@ flex-shrink: 0;
         width:300px;
     
     }
-    .img-logo{
-        /* padding-top: 50px; */
-    }
+   .logos{
+    justify-content: center;
+   }
     .img-and-text, .game-download{
         flex-direction: column;
     }
