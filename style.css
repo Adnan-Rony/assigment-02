@@ -24,7 +24,7 @@
 .nav-menu ul li{
     list-style: none;
     margin-right: 30px;
-    color: #3C354F;
+  
 text-align: center;
 font-family: Work Sans;
 font-size: 18px;
@@ -38,6 +38,7 @@ font-weight: 500;
 } */
 .nav-menu ul li a{
     text-decoration: none;
+    color: #3C354F;
 }
 .nav-btn{
     width: 262px;
@@ -46,8 +47,19 @@ flex-shrink: 0;
 border-radius: 8px;
 background: rgba(11, 2, 35, 0.10);
 border: 0;
+gap: 10px;
 
 }
+.fa-youtube{
+    width: 33.916px;
+
+
+}
+
+
+
+
+
 .img-logo{
     display: flex;
     gap: 10px;
@@ -240,6 +252,9 @@ padding-bottom: 20px;
 }
 
 
+
+
+
 .item img:hover{
     border: 3px solid #FF42A5;
     border-radius: 16px;
@@ -250,6 +265,10 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 10
 
 
 }
+
+
+
+
 .item img{
     width: 100%;
 }
